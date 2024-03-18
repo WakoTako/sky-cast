@@ -6,7 +6,6 @@ import { weatherForecastData } from "./weatherForecastData.js";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
-console.log(API_KEY);
 
 const searchBoxInput = document.querySelector(".search-box-input");
 const gpsButton = document.querySelector(".gps-button");
